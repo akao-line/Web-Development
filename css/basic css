@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+</head>
+
+<body>
+
+    <h1>Basic CSS</h1>
+    <hr>
+    <p>CSS = Cascading Style Sheets</p>
+    <p>-Used to style and layout web pages</p>
+    <p>There are three ways to use CSS:
+        <br>
+        -Inline CSS<br>
+        -Internal CSS<br>
+        -External CSS<br>
+    </p>
+
+    <p>External CSS is defined in a separate .css file and linked to the HTML page. It works the best for maintaining
+        large websites.</p>
+
+    <p>Inline: It is written directly inside the HTML element using the style attribute.</p>
+    <p>Internal: It is written inside the &lt;style&gt; &lt;/style&gt;tag in the HTML document.</p>
+    <p>External: It is defined in a separate .css file and linked to the HTML page. Link by using &lt;link
+        rel="stylesheet"
+        href="styles.css" &gt; inside the HTML document.
+        <br>
+        Inside the .css file, you can write CSS rules to style the HTML elements. For example:
+        <br><br>
+        h1{
+        <br> color: blue;
+        <br> font-size: 24px;
+        <br>
+        }
+    <h1 style="color: blue; font-size: 24px;">This is a heading using CSS</h1>
+
+    body, h1, p can be directly use here in the .css file to style the elements
+    </p>
+    <hr>
+
+    <p>Html elements can be given an "id" or "class" attribute to target them specifically in the CSS file.</p>
+    <p>To target an element by its id, declare id="element_id" in the html element and use the # symbol followed by the
+        id name.<br>
+        To target an element by its class, declare class="element_class" in the html element and use the . symbol
+        followed by the class
+        name.</p>
+
+    <p>Example:<br>
+        -Id<br>
+        #p1{<br>
+        color: red;<br>
+        }
+    <p id="p1" style="color:red">Red</p>
+
+    <p>Class:<br>
+        .element_class{<br>
+        color: blue;<br>
+        }
+    </p>
+    <p class="element_class" style="color:blue">Blue</p>
+    </p>
+
+
+
+
+
+</body>
+
+</html>
